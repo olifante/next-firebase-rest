@@ -1,18 +1,18 @@
 {
-  "name": "next-rest-todos",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build",
-    "dev": "next",
-    "start": "next start"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
-    "next": "^1.2.3"
-  }
+    "name": "next-firebase-rest",
+    "version": "1.0.0",
+    "description": "Simple example showing how to load data from a public Firebase database using their REST API",
+    "main": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "next build",
+        "dev": "next",
+        "start": "next start"
+    },
+    "author": "Tiago Henriques <trinosauro@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "isomorphic-fetch": "^2.2.1",
+        "next": "^1.2.3"
+    }
 }

@@ -1,6 +1,7 @@
-# Next Rest Todos
-A small proof of concept to learn how to use Next.JS with a Rest API.
+# Next Firebase REST
 
-The backend data is available there : [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/)
+Simple example showing how to load data from a public Firebase database using their REST API.
 
-Live demo available here : [https://next-rest-todo-fd.now.sh](https://next-rest-todo-fd.now.sh)
+The backend data is available there : [https://dinosaur-facts.firebaseio.com/dinosaurs.json](https://dinosaur-facts.firebaseio.com/dinosaurs.json)
+
+Live demo available here : [https://next-firebase-rest.now.sh/](https://next-firebase-rest.now.sh/)
