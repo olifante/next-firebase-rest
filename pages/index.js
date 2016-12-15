@@ -19,9 +19,9 @@ export default class Index extends Component {
   render() {
     return (
       <div>
-        <h1>Home</h1>
-        <div>{Object.keys(this.props.dinosaurs).map(dinosaur =>
-          <div key={dinosaur}>{dinosaur}</div>
+        <h1>Dinosaurs</h1>
+        <div>{Object.entries(this.props.dinosaurs).map(([name, dinosaur]) =>
+          <h2 key={name}>Name: {name}, order: {dinosaur.order}</h2>
         )}</div>
       </div>
     )
