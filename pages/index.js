@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import fetch from 'isomorphic-fetch'
 
-const DINOSAURS_ENDPOINT = 'https://dinosaur-facts.firebaseio.com/dinosaurs.json'
+const FIREBASE_SECRET = process.env.FIREBASE_SECRET
+const DINOSAURS_ENDPOINT = 'https://olifante-a2cf8.firebaseio.com/dinosaurs.json'
+const SECRET_DINOSAURS_ENDPOINT = DINOSAURS_ENDPOINT + '?auth=' + FIREBASE_SECRET
 
 export default class Index extends Component {
   static async getInitialProps() {
-    const data = await fetch(DINOSAURS_ENDPOINT)
+    const data = await fetch(SECRET_DINOSAURS_ENDPOINT)
     const dinosaurs = await data.json()
     return {
       dinosaurs
