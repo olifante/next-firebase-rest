@@ -8,12 +8,12 @@ In order to run this example, you will need to identify the SECRET for your fire
 FIREBASE_SECRET='replace_with_your_firebase_database_secret' npm start
 ```
 
-To deploy to the zeit now cloud, run it like this:
+To deploy to the `zeit now` cloud, run it like this:
 
 ```sh
-now -e FIREBASE_SECRET='replace_with_your_firebase_database_secret'
+now --env FIREBASE_SECRET='replace_with_your_firebase_database_secret'
 ```
 
-The backend data is available there : <https://olifante-a2cf8.firebaseio.com/dinosaurs.json>
+The original backend data is available there : <https://dinosaur-facts.firebaseio.com/dinosaurs.json>
 
 Live demo available here : <https://next-firebase-rest.now.sh/>
